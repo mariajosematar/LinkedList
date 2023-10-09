@@ -38,14 +38,14 @@ class LinkedList:
             current = current.next
         return False
 
-# Ejemplo de uso
+# Example of use
 linked_list = LinkedList()
 linked_list.append(1)
 linked_list.append(2)
 linked_list.append(3)
 linked_list.delete(2)
-print(linked_list.search(2))  # Debería imprimir False
+print(linked_list.search(2))  # Should print False
 
-# Agregamos el número 2 nuevamente
+# Add the number 2 again
 linked_list.append(2)
-print(linked_list.search(2))  # Debería imprimir True
+print(linked_list.search(2))  # Should print True
