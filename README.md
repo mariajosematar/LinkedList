@@ -37,7 +37,7 @@ print(result)  # Should print False
 # Contributions
 - If you want to contribute to this project, please follow these steps:
 
-## Fork the repository.
+# Fork the repository.
 1 - Clone the repository to your local machine.
 2 - Create a new branch for your changes: git checkout -b feature/new-feature.
 3 - Make your changes and ensure you follow code style conventions.
